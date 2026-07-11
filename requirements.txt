@@ -1,0 +1,15 @@
+fastapi
+uvicorn[standard]
+python-multipart
+pydantic
+pandas
+openpyxl
+pytest
+httpx
+python-dotenv
+langgraph
+pandasai
+pandasai-litellm
+matplotlib
+plotly
+fastmcp

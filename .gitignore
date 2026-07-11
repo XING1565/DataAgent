@@ -1,0 +1,39 @@
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Python
+.venv/
+venv/
+__pycache__/
+.pytest_cache/
+.pytest-tmp/
+.mypy_cache/
+.ruff_cache/
+*.py[cod]
+*$py.class
+.coverage
+htmlcov/
+*.log
+
+# Frontend
+node_modules/
+dist/
+frontend/node_modules/
+frontend/dist/
+*.tsbuildinfo
+
+# Runtime data and generated artifacts
+data/uploads/
+data/datasets/
+data/sqlite/
+data/jobs/
+data/sessions/
+data/agent_events/
+data/artifacts/
+exports/charts/
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
