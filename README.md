@@ -1,4 +1,4 @@
-# DataAgent
+﻿# DataAgent
 
 DataAgent 是一个面向 CSV/XLSX 表格数据的智能分析 Agent 工作台。它把数据上传、字段识别、质量摘要、自然语言分析、SQL 查询、图表生成、多轮追问、Agent Trace、任务状态和 Markdown 报告串成一条可观察的分析链路，适合用于数据分析 Agent、业务报表自动化、表格问答和前后端分离应用演示。
 
@@ -32,21 +32,10 @@ API 文档：http://127.0.0.1:8000/docs
 
 ## GIF 演示
 
-建议放置一张完整链路演示 GIF，路径例如：
 
-```text
-demo/dataagent-demo.gif
-```
+![DataAgent](DataAgent演示.gif)
 
-推荐演示脚本：
 
-1. 打开前端工作台。
-2. 上传 `demo/sales_demo.csv`。
-3. 查看字段结构、数据预览和质量摘要。
-4. 输入 `plot monthly sales trend` 生成趋势图。
-5. 追问 `what about the region with the largest decline`。
-6. 展开 Agent Trace，查看每一步工具调用。
-7. 输入 `generate report` 生成 Markdown 分析报告。
 
 ## 架构图
 
